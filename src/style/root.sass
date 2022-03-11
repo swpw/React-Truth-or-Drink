@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap')
+
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.core"
+ 
+=e($element)
+  &__#{$element}
+    @content
+
+=m($modifer)
+  &--#{$modifer}
+    @content
+
+=min($size)
+  @media (min-width: #{$size + px})
+    @content
+
+$font1: 'Lobster Two', cursive
+$font2: 'Lato', sans-serif
+
+$color1: #111
+$color2: #fff
+$color3: #333
+$color4: #91BFE6
+
+$colorEasy1: #C8FDCD
+$colorEasy2: #5BBD65
+
+$colorMedium1: #FDE8C8
+$colorMedium2: #D08617
+
+$colorHard1: #FDC8C8
+$colorHard2: #CA5454
+
+$colorRandom1: #D0C8FD
+$colorRandom2: #7063BC 
+
+@import ./default/reset.sass
+@import ./default/normalize.sass
+
+@import ./layouts/default.sass
+@import ./layouts/mainMenu.sass
+@import ./layouts/header.sass
+@import ./layouts/icons.sass
+@import ./layouts/game.sass
