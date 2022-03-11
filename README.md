@@ -1,7 +1,7 @@
 ![Preview image](https://i.imgur.com/xCgbWWS.png)
 
 # [React Truth or Drink](https://xenodochial-lalande-14bd73.netlify.app/)
-Simple questions game rebuilt with ReactJs based on orginal [Vanilla JS version](https://github.com/swpw/Truth-or-Drink). 
+Simple questions game rebuilt with ReactJS based on orginal [Vanilla JS version](https://github.com/swpw/Truth-or-Drink). 
 Made for learning ReactJs and comparing differences despite doing "dirty" component copy.
 
 ## Demo
